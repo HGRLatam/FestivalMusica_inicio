@@ -45,7 +45,7 @@ function versionWebp(done) {
         .pipe(dest('build/img'))
     done();
 }
-function javascript() {
+function javascript(done) {
     src('src/js/**/*.js')
         .pipe(dest('build/js'));
     done();
