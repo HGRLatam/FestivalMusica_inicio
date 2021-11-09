@@ -45,14 +45,20 @@ function versionWebp(done) {
         .pipe(dest('build/img'))
     done();
 }
-
+function javascript() {
+    src('src/js/**/*.js')
+        .pipe(dest('build/js'));
+    done();
+}
 function dev(done) {
     watch('src/scss/**/*.scss', css);
+    watch('src/js/**/*.js', javascript);
     done();
 }
 
 exports.css = css;
 exports.imagenes = imagenes;
+exports.js = javascript;
 exports.versionWebp = versionWebp;
 exports.versionavif = versionavif;
-exports.dev = parallel(imagenes, versionWebp, versionavif, dev);
+exports.dev = parallel(imagenes, versionWebp, versionavif, javascript, dev);
