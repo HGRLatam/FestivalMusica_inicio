@@ -1,6 +1,7 @@
 @use "base/variable" as v;
 @use "base/mixins" as m;
 
+<<<<<<< HEAD
 .boletos {
 	padding: 5rem 0;
 	h3 {
@@ -13,3 +14,11 @@
 		}
 	}
 }
+=======
+.boletos{
+    padding: 5rem 0;
+    h3{
+        text-align: center;
+    }
+}
+>>>>>>> master
