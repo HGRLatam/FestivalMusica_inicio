@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function () {
     iniciarApp();
 });
@@ -62,5 +61,3 @@ function mostrarImagen(id) {
     body.classList.add('fijar-body');
 
 }
-=======
->>>>>>> master
