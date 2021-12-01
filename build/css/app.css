@@ -586,7 +586,6 @@ img {
   background-color: #3b9691;
 }
 
-<<<<<<< HEAD
 .galeria {
   padding: 5rem 0;
 }
@@ -655,14 +654,11 @@ img {
   cursor: pointer;
 }
 
-=======
->>>>>>> master
 .boletos {
   padding: 5rem 0;
 }
 .boletos h3 {
   text-align: center;
-<<<<<<< HEAD
   color: #ffffff;
 }
 @media (min-width: 768px) {
@@ -671,6 +667,4 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
   }
-=======
->>>>>>> master
 }
