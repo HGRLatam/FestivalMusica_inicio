@@ -14,7 +14,7 @@ const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
 const avif = require('gulp-avif');
 
-//Javascript
+//Javascriptgu
 const terser = require('gulp-terser-js');
 
 function css(done) {
