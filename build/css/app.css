@@ -400,6 +400,13 @@ img {
 .header {
   background-color: #4cb8b3;
 }
+@media (min-width: 768px) {
+  .header.fijo {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0.1rem 0.2rem 0.1rem #333;
+  }
+}
 .header h1 {
   color: #ffffff;
   text-align: center;
@@ -660,6 +667,7 @@ img {
 .boletos h3 {
   text-align: center;
   color: #ffffff;
+  margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
   .boletos .contenedor-boletos {
@@ -667,4 +675,58 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
   }
+}
+
+.pase {
+  color: black;
+}
+.pase .nombre-pase {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+.pase-header, .pase-footer {
+  padding: 0.5rem;
+}
+.pase-header p, .pase-footer p {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+.pase-header {
+  background-color: #f53756;
+}
+.pase-header p {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+.pase-body {
+  background-color: #ffffff;
+}
+.pase-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pase-body ul li,
+.pase-body ul :nth-child(odd) {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+.pase-footer {
+  background-color: #755f97;
+}
+.pase-footer p {
+  font-size: 2.4rem;
+}
+
+.site-footer {
+  background-color: #f53756;
+  padding: 1rem;
+}
+.site-footer p {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
 }
